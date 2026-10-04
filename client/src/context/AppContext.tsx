@@ -21,7 +21,7 @@ interface AppContextType{
     logout: () => void;
 }
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000"
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://seo-rank-tracker-server.onrender.com"
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
